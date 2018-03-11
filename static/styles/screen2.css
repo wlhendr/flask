@@ -1,0 +1,10 @@
+/*@import ../web_site.py.image
+*/
+
+body {
+    background-color: #522D80;
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}

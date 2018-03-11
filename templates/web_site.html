@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<!--<link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+
+<head> <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename = 'styles/web_site.css') }}" > </head>
+
+<!-- Main Page Section -->
+<div class="container">
+
+  <!-- Header Bar -->
+  <nav class="header">
+    <h1>Crowd Source Screen</h1>
+  </nav>
+  <!-- End Header Bar -->
+
+  <!-- Main Body -->
+  <div class="description">
+    <p>Enter your seat number [location] and hold your phone up!</p>
+  </div>
+
+    <form id="frm1" method = "POST" action = "/">
+    Row: <input type="text" name="row"><br>
+    Column: <input type="text" name="col"><br><br>
+    <input type="Submit" name = "Submit" value="Submit">
+    </form>
+
+
+  <!-- End Main Body -->
+
+</div>
+<!-- End Main Page Section -->
+</html>
