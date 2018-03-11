@@ -2,8 +2,11 @@
 <html>
 <head>
   <script>
-  var color = '{{color}}';
-  alert(color);
+  function fun(){
+    var color = '{{color}}';
+    document.body.style.backgroundColor = color;
+  }
+  window.onload = fun;
   </script>
 </head>
 <!--<link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -19,11 +22,7 @@
     <h1>pixel {{color}}</h1>
   </nav>
   <!-- End Header Bar -->
-  <style>
-  body {
-    background: #522D80;
-  }
-  </style>
+
   <body>
   </body>
 
