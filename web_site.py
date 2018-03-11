@@ -21,10 +21,6 @@ def hello(color = None):
     if request.method == 'POST':
         row = request.form['row']
         col = request.form['col']
-        #return row
-        #print row
-        #print col
-        #print image[0][0]
         color = image[int(row)][int(col)]
         print row
         print col
