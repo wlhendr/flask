@@ -1,6 +1,8 @@
 from flask import Flask, render_template, url_for, request
 from flask import jsonify
 
+
+
 app = Flask(__name__)
 
 image = [['#522D80', '#F66733'],
